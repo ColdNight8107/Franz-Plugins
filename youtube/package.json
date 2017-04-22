@@ -1,0 +1,23 @@
+{
+    "name": "youtube",
+    "version": "1.0.0",
+    "description": "Youtube",
+    "main": "index.js",
+    "author": "Yitch <mr.yitch@gmail.com>",
+    "license": "MIT",
+    "config": {
+        "serviceURL": "https://www.youtube.com/",
+        "serviceName": "Youtube",
+        "message": "",
+        "popup": [],
+        "hasNotificationSound": true,
+        "hasIndirectMessages": true,
+        "hasTeamID": false,
+        "customURL": false,
+        "hostedOnly": false,
+        "webviewOptions": {
+            "disablewebsecurity": true
+        },
+        "openDevTools": false
+    }
+}
